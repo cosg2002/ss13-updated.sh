@@ -15,7 +15,7 @@ After you've made sure that wine and winetricks are properly installed, you'll w
 Finally, enter the following command:
 
 ```
-curl https://raw.githubusercontent.com/Zero-Bits/ss13.sh/master/ss13.sh | bash
+curl https://raw.githubusercontent.com/cosg2002/ss13-updated.sh/master/ss13.sh | bash
 ```
 
 # How to Update/Play BYOND
