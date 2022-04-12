@@ -92,7 +92,7 @@ fi
 
 FULLVER=514.1583_byond.zip
 
-FULLURL=http://www.byond.com/download/build/LATEST/514.1543_byond.zip
+FULLURL=http://www.byond.com/download/build/LATEST/514.1583_byond.zip
 
 if [ ! -d "$SS13DIR/drive_c/Program Files/BYOND" ]
 
