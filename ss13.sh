@@ -90,9 +90,9 @@ fi
 
 #MAJORURL=
 
-FULLVER=512.1461_byond.zip
+FULLVER=514.1583_byond.zip
 
-FULLURL=http://www.byond.com/download/build/512/512.1461_byond.zip
+FULLURL=http://www.byond.com/download/build/LATEST/514.1543_byond.zip
 
 if [ ! -d "$SS13DIR/drive_c/Program Files/BYOND" ]
 
@@ -104,17 +104,17 @@ then
 
     mkdir -p ziptmp
 
-    unzip -qq 512.1461_byond.zip -d ziptmp
+    unzip -qq 514.1583_byond.zip -d ziptmp
 
     ls ziptmp
 
     mv ziptmp/byond $SS13DIR/drive_c/Program\ Files/BYOND
 
-    rm ./512.1461_byond.zip
+    rm ./514.1583_byond.zip
 
     rm -rf ziptmp
 
-    echo "512.1461_byond.zip" > $SS13DIR/.byondver
+    echo "514.1583_byond.zip" > $SS13DIR/.byondver
 
     echo -e "${BLUE}Done!${NC}"
 
